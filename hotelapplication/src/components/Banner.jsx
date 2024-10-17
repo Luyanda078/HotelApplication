@@ -16,17 +16,22 @@ function Banner() {
             </h1>
             <Button>Explore Now</Button>
         </div>
-        <div className='booking__'>
-            <div className='booking__div'>
+        <di>
+        <div className='booking__div'>
                 <div className='booking'>
                     <div className="banner__main__div">
-                        <div className="booking__header"></div>
+                        <div className="booking__header">
+                            <h5>Arrival D</h5>
+                        </div>
                     </div>
                     
                 </div>
             </div>
+        </di>
+        
+           
 
-        </div>
+        
     </div>
    </>
   )
