@@ -1,5 +1,49 @@
-.header logo{
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    position: relative;
+}
+.header__logo{
 width: 100px;
 height: 95px;
 margin-left: 120px;
+}
+
+.header__center{
+display: flex;
+flex: 1;
+align-items: center;
+max-width: fit-content;
+height: 30px;
+font-weight: bold;
+padding: 10px;
+color: black;
+}
+.header__Right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    margin-right: 80px;
+
+}
+.header__Buuton{
+    background-color:lightgray;
+    margin-top: 10px !important;
+    width: 202px !important;
+    height: 45px !important;
+    background-color: #fff !important;
+    font-family: "Lexend";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: none !important;
+    
 }

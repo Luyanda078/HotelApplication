@@ -4,14 +4,20 @@ import Logo from '../assets/Logo.png'
 
 function Header() {
   return (
-    <div className='Header'>
-        <img className='Header_Logo' alt='' src={Logo}/>
+    <div className='header'>
+        <img className='header__Logo' alt='' src={Logo}/>
         <div className="header__center"></div>
-        <div className="button">Home</div>
-        <div className="button">Accommodation & Rooms</div>
-        <div className="button">Offers</div>
-        <div className="button">My Bookings</div>
-        <div className="button">Profile</div>
+          <div className="center__button">Home</div>
+          <div className="center__button">Accommodation & Suits</div>
+          <div className="butcenter__buttonton">Offers</div>
+          <div className="center__button">My Bookings</div>
+        <div className="center__button">Profile</div>
+
+        <div className='header__Right'>
+            <div className='headerContainer'>
+                <button className='header__Buuton'>Sign Up</button>
+            </div>
+        </div>
     </div>
   )
 }
