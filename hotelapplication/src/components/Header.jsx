@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import Logo from '../assets/Logo.png'
+import {Button} from '@mui/material'
 
 function Header() {
   return (
@@ -9,13 +10,13 @@ function Header() {
         <div className="header__center"></div>
           <div className="center__button">Home</div>
           <div className="center__button">Accommodation & Suits</div>
-          <div className="butcenter__buttonton">Offers</div>
+          <div className="center__button">Offers</div>
           <div className="center__button">My Bookings</div>
         <div className="center__button">Profile</div>
 
         <div className='header__Right'>
             <div className='headerContainer'>
-                <button className='header__Buuton'>Sign Up</button>
+                <Button className='header__Buuton'>Sign Up</Button>
             </div>
         </div>
     </div>

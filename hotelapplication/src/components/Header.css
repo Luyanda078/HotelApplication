@@ -22,7 +22,7 @@ max-width: fit-content;
 height: 30px;
 font-weight: bold;
 padding: 10px;
-color: black;
+color: white;
 }
 .header__Right{
     display: flex;
@@ -46,4 +46,18 @@ color: black;
     text-align: center;
     border-radius: none !important;
     
+
 }
+.center__button{
+    padding: 10px;
+    border: none;
+    font-family: "Lexend";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+
+
+
